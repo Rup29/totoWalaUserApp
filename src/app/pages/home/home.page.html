@@ -1,0 +1,51 @@
+<ion-content [fullscreen]="true">
+  <ion-header>
+   <div class="topbar">
+    <ion-button class="toggle-menu">
+      <img src="assets/images/menu.png"/>
+    </ion-button>
+   </div>
+  </ion-header>
+  <div class="wapper">
+    <img class="map" src="assets/images/map.png"/>
+    <div class="find-box">
+      <h1>Good Evening, Jhon Dwo</h1>
+      <div class="find-box-entry">
+       <div class="whereto">
+        <h2>Where To ?</h2>
+        <div class="right">
+          <ion-icon name="timer"></ion-icon>
+          <select>
+            <option>Now</option>
+            <option>5 Min</option>
+            <option>10 Min</option>
+            <option>15 Min</option>
+            <option>20 Min</option>
+          </select>
+        </div>
+       </div>
+       <div class="formto">
+        <form>
+          <div class="formgroup">
+            <span><ion-icon name="home"></ion-icon></span>
+            <div class="txt-box">
+              <label>From</label>
+              <input type="text" placeholder="Enter Address" value="Panskura Bus Stand" readonly/>
+            </div>
+          </div>
+          <div class="formgroup">
+            <span><ion-icon name="car"></ion-icon></span>
+            <div class="txt-box">
+              <label>To</label>
+              <input type="text" placeholder="Enter Address" value="Ghatal polish fhari" readonly/>
+            </div>
+          </div>
+          <div class="btn-grp">
+            <ion-button class="cmn-button">Trip</ion-button>
+          </div>
+        </form>
+       </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
